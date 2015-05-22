@@ -31,11 +31,11 @@ gulp.task('lint', function (done) {
 gulp.task('e2e', function (done) {
   gulp.src([e2eTestFiles])
     .pipe(protractor({
-        configFile: "./protractor.conf.js",
-        args: []
+      configFile: "./protractor.conf.js",
+      args: []
     }))
     .on('error', function (e) {
-        throw e
+      throw e;
     });
 });
 

@@ -1,5 +1,5 @@
-var baseFile = __dirname + '/index.html';
-var nwBinary;
+var baseFile = __dirname + '/index.html',
+    nwBinary;
 
 switch (process.platform) {
   case 'darwin':
@@ -11,7 +11,6 @@ switch (process.platform) {
   case 'win32':
     nwBinary = nwBinary = process.env.PWD + '/node_modules/nw/nwjs/nw.exe';
     break;
-
 }
 
 exports.config = {

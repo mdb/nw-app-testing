@@ -4,16 +4,8 @@
   <title>nw-app</title>
 </head>
 <body>
-  <input id="open" type="file" style="display:none" accept="text/*"/>
-  <input id="save" type="file" nwsaveas style="display:none" accept="text/*"/>
-  <textarea id="editor" style="position:fixed;top:0;bottom:0;left:0;right:0;width:100%;"></textarea>
+  <h1 id="heading"></h1>
+
   <script src="js/main.js"></script>
-  <script>
-    var gulp = require('gulp');
-    gulp.task('reload', function () {
-      if (location) { location.reload(); }
-    });
-    gulp.watch(['./js/**/*.js','index.html'], ['reload']);
-  </script>
 </body>
 </html>
