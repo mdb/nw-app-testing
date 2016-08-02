@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mdb/nw-app-testing.svg?branch=master)](https://travis-ci.org/mdb/nw-app-testing)
+
 # nw-app-testing
 
 A very basic NW.js application and corresponding tests.
