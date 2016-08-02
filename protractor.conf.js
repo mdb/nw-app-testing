@@ -15,7 +15,7 @@ switch (process.platform) {
 
 exports.config = {
   directConnect: true,
-  chromeDriver: 'node_modules/protractor/selenium/chromedriver',
+  chromeDriver: 'node_modules/chromedriver/bin/chromedriver',
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
