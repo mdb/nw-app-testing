@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "main": "./index.html",
   "scripts": {
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
     "test": "gulp test && gulp e2e"
   },
   "window": {
