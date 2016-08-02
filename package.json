@@ -20,6 +20,7 @@
     "jasmine-core": "2.4.1",
     "jshint-stylish": "2.2.0",
     "karma": "1.1.2",
+    "karma-jasmine": "1.0.2",
     "karma-nodewebkit-launcher": "git://github.com/iamdenny/karma-nodewebkit-launcher",
     "protractor": "4.0.2",
     "chromedriver": "2.22.1"
